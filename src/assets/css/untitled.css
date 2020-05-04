@@ -1,0 +1,18 @@
+.input-group > .input-group-append > .btn, .input-group > .input-group-append > .input-group-text, .input-group > .input-group-prepend:first-child > .btn:not(:first-child), .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child), .input-group > .input-group-prepend:not(:first-child) > .btn, .input-group > .input-group-prepend:not(:first-child) > .input-group-text {
+  background-color: #1e2833;
+  background-image: linear-gradient(180deg,#1e2833 10%,#151C29);
+  background-size: cover;
+}
+
+.fas.fa-bars {
+  color: #1e2633;
+}
+
+.dropdown .dropdown-list .dropdown-header {
+  background-color: #151C29;
+  border: 1px solid #151C29;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  color: #fff;
+}
+
