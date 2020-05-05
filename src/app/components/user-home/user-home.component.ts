@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserHomeComponent implements OnInit {
 
+  public toggled:boolean=true;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  public onToggle():void{
+    this.toggled=!this.toggled;
   }
 
 }
